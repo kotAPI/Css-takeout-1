@@ -1,0 +1,250 @@
+body{
+	padding: 0;
+	margin: 0;
+	background:#B8CADF;
+}
+#charminar{
+	width: 900px;
+	height: 500px;
+	position: relative;
+	display: block;
+	margin:60px 90px 0px 180px;
+}
+
+.pillar-container{
+
+}
+
+.pillar-container2{
+	position:relative;
+	top:70.4%;
+	z-index: 5;
+	left:-6%;
+}
+.pillar1-b{
+	position:relative;
+	left:80%;
+}
+.pillar2b{
+	position:absolute;
+	left:80%;
+	top:-120.6%;
+	transform:scale(0.75,0.75);
+}
+.pillar3b{
+	position:absolute;
+	left:80%;
+	top:-207.5%;
+	transform:scale(0.5,0.5);
+}
+
+
+
+.pillar1{
+	top:70.4%;
+	left:30%;
+	position:absolute;
+	z-index: 5;
+}
+.pillar-base{
+	width:60px;
+	height:175px;
+	position:relative;
+	border:1px solid black;
+	background: #E4D792 linear-gradient(to right, #CAB755 0%, #E0CC62 20%, #E0CC62 21%, #DCCB5F 40%, #D6C97A 41%, #E6DB97 60%,#E6E0B5 61%, #E6DB97 81%, #E6DB97 81%, #F1ECD3 100%)
+}
+.pillar-circular{
+	width:70px;
+	height:2px;
+	border-radius: 4px;
+	border:1px solid black;
+	background: #E4D792 linear-gradient(to right, #CAB755 0%, #E0CC62 20%, #E0CC62 21%, #DCCB5F 40%, #D6C97A 41%, #E6DB97 60%,#E6E0B5 61%, #E6DB97 81%, #E6DB97 81%, #F1ECD3 100%);
+	left:-4px;
+}
+.child-1{
+	top:-2%;	
+	position:absolute;	
+}
+.child-2{
+	top:-4%;	
+	position:absolute;	
+}
+.child-3{
+	top:-6%;	
+	position:absolute;	
+}
+.child-4{
+	top:-17%;
+	width:60px;
+	left:1px;
+	position:absolute;	
+}
+.pillar-base2{
+	left:0px;
+	width:60px;
+	height:15px;
+	top:-15.2%;
+	border-radius: 3px;
+	position:absolute;
+	border:1px solid black;
+	background: #E4D792 linear-gradient(to right, #CAB755 0%, #E0CC62 20%, #E0CC62 21%, #DCCB5F 40%, #D6C97A 41%, #E6DB97 60%,#E6E0B5 61%, #E6DB97 81%, #E6DB97 81%, #F1ECD3 100%);
+}
+.pillar-base3{
+	left:0px;
+	width:60px;
+	height:15px;
+	top:-26.2%;
+	border-radius: 3px;
+	position:absolute;
+	border:1px solid black;
+	background: #E4D792 linear-gradient(to right, #CAB755 0%, #E0CC62 20%, #E0CC62 21%, #DCCB5F 40%, #D6C97A 41%, #E6DB97 60%,#E6E0B5 61%, #E6DB97 81%, #E6DB97 81%, #F1ECD3 100%);
+}
+.child-5{
+	top:-28%;
+	width:60px;
+	left:1px;
+	position:absolute;	
+}
+.pillar-base4{
+	left:-3px;
+	width:66px;
+	height:8px;
+	top:-33.2%;
+	border-radius: 3px;
+	position:absolute;
+	border:1px solid black;
+	background: #E4D792 linear-gradient(to right, #CAB755 0%, #E0CC62 20%, #E0CC62 21%, #DCCB5F 40%, #D6C97A 41%, #E6DB97 60%,#E6E0B5 61%, #E6DB97 81%, #E6DB97 81%, #F1ECD3 100%);
+}
+
+.pillar2{
+	top:27.7%;
+	left:30%;
+	position:absolute;
+	transform:scale(0.75,0.75);
+	z-index: 5;
+}
+.pillar3{
+	top:-3%;
+	left:30%;
+	position:absolute;
+	transform:scale(0.50,0.50);
+}
+
+.top-half{
+	left:36%;
+	width:375px;
+	height:45px;
+	background: #E4D792;
+	position:relative;
+}
+.top-circularbar{
+	top:10%;
+	left:36%;
+	width:375px;
+	height:3px;
+	border:1px solid black;
+	background: #AF9C36;
+	position:relative;
+	box-shadow: 0px 4px 4px #B3A8A8;
+	z-index: 1;
+}
+.top-half-2{
+	top:10%;
+	left:36%;
+	width:375px;
+	height:55px;
+	background: #E4D792;
+	position:relative;
+}
+.top-half-3{
+	top:10%;
+	left:36%;
+	width:375px;
+	height:60px;
+	background: #E4D792;
+	position:relative;
+}
+
+.arch{
+	background: #CEBE6A; 
+  	padding-top: 100px; 
+  	width: 420px;
+  	height:80px;
+  	 overflow: hidden;
+    position:relative;
+    left:30%;
+
+    z-index: 4;
+}
+
+.arch-window{
+	border-radius: 200px/150px;
+	border: 4px solid #E6E1C4;
+    width: 130px;
+    height: 300px;
+    margin: 0 0 -80px -10px;
+    background: #7F6F1A;
+    z-index: 10;
+    position: absolute;
+    left: 49%;
+    top: 79%;
+}
+.arch-border{
+	border:4px solid #EFE8C3;
+    width: 198px;
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    top: 71.5%;
+    left: 44%;
+}
+
+.ground{
+	height:200px;
+	width:1600px;
+	background:#D4D4D4;
+	position:absolute;
+	z-index: 100;
+	left:-22%;
+	top:104%;
+
+}
+
+.vertical-divider{
+	background: #927C08;
+    width: 4px;
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    top: 71.5%;
+    left: 43.5%;
+}
+.vertical-divider2{
+	background: #927C08;
+    width: 4px;
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    top: 71.5%;
+	left:67%;
+}
+.vertical-divider3{
+	background: #EFE8C3;
+    width: 4px;
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    top: 71.5%;
+	left: 43%;
+}
+.vertical-divider4{
+	background: #927C08;
+    width: 4px;
+    height: 200px;
+    z-index: 5;
+    position: absolute;
+    top: 71.5%;
+    left: 67%;
+}
+
+
